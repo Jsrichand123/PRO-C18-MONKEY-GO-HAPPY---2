@@ -103,7 +103,7 @@ function draw() {
     
   stroke("black");
   textSize(20);
-  fill("white");
+  fill("lime");
   text("Score: "+ score, 40,20);
   
  
