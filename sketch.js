@@ -93,7 +93,7 @@ function draw() {
   if (obstacleGroup.isTouching(monkey)){
     monkey.scale=0.1;
      obstacleGroup.destroyEach();
-    score=score-1;
+    score=score-2;
     
   }
  
@@ -103,7 +103,7 @@ function draw() {
     
   stroke("black");
   textSize(20);
-  fill("black");
+  fill("white");
   text("Score: "+ score, 40,20);
   
  
